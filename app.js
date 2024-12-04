@@ -14,4 +14,4 @@ app.use("/", routes);
 
 connectMongoDB();
 
-app.listen(8000, () => console.log("App is running port: ", PORT));
+app.listen(PORT, () => console.log("App is running port: ", PORT));
